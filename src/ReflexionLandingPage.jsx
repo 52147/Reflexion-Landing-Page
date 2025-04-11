@@ -47,13 +47,18 @@ export default function ReflexionLandingPage() {
           />
         </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center space-y-4 sm:space-y-0">
-          <a
-            href="https://sentiment-psychology-analysis-frontend.vercel.app/"
-            target="_blank"
-            className="bg-blue-200 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow shadow-blue-500/50"
-          >
-            🚀 Try Live Demo
-          </a>
+          <div className="relative flex flex-col items-center">
+            <a
+              href="https://sentiment-psychology-analysis-frontend.vercel.app/"
+              target="_blank"
+              className="bg-blue-200 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow shadow-blue-500/50"
+            >
+              🚀 Try Live Demo
+            </a>
+            <div className="absolute top-full mt-1 bg-black text-white text-xs px-3 py-1 rounded shadow z-50">
+              Viewer Mode only – GPT-4 gated due to API cost
+            </div>
+          </div>
           <a
             href="https://drive.google.com/file/d/154A11Y88A52LqGeZRQX5DPn71U1DOX_f/view"
             target="_blank"
