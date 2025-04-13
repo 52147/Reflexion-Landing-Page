@@ -60,7 +60,7 @@ export default function ReflexionLandingPage() {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/154A11Y88A52LqGeZRQX5DPn71U1DOX_f/view"
+            href="https://drive.google.com/file/d/15d0BJcpw4RgEgi8cD6R3v1TzHzKVxb1G/view?usp=sharing"
             target="_blank"
             className="border border-white text-white py-2 px-6 rounded hover:bg-white hover:text-gray-900"
           >
