@@ -33,7 +33,7 @@ export default function ReflexionLandingPage() {
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto text-center space-y-4">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">
-          🧠 Reflexion
+          Reflexion
         </h1>
 
         <p className="text-lg md:text-2xl text-gray-300 mb-10">
@@ -53,7 +53,7 @@ export default function ReflexionLandingPage() {
               target="_blank"
               className="bg-blue-200 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow shadow-blue-500/50"
             >
-              🚀 Try Live Demo
+              Try Live Demo
             </a>
             <div className="absolute top-full mt-1 bg-black text-white text-xs px-3 py-1 rounded shadow z-50">
               Viewer Mode only – GPT-4 gated due to API cost
@@ -64,14 +64,14 @@ export default function ReflexionLandingPage() {
             target="_blank"
             className="border border-white text-white py-2 px-6 rounded hover:bg-white hover:text-gray-900"
           >
-            🎥 Watch Demo Video
+            Watch Demo Video
           </a>
           <a
             href="https://github.com/52147/Sentiment-Psychology-Analysis-Backend"
             target="_blank"
             className="bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-6 rounded"
           >
-            💻 GitHub Repo
+            GitHub Repo
           </a>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function ReflexionLandingPage() {
       {/* Blog Section */}
       <section className="mt-24 max-w-5xl mx-auto text-center space-y-8">
         <h2 className="text-2xl md:text-3xl font-bold text-purple-400">
-          📘 Read More on Reflexion
+          Read More on Reflexion
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           <a
@@ -140,7 +140,7 @@ export default function ReflexionLandingPage() {
             className="bg-gray-800 hover:bg-gray-700 p-6 rounded-xl text-left transition"
           >
             <h3 className="text-xl font-semibold mb-2">
-              🧠 Designing AI-Driven Self-Reflection
+              Designing AI-Driven Self-Reflection
             </h3>
             <p className="text-gray-300">
               A technical deep dive on how the system was architected using GPT,
@@ -154,7 +154,7 @@ export default function ReflexionLandingPage() {
             className="bg-gray-800 hover:bg-gray-700 p-6 rounded-xl text-left transition"
           >
             <h3 className="text-xl font-semibold mb-2">
-              📖 Philosophy Behind the System
+              Philosophy Behind the System
             </h3>
             <p className="text-gray-300">
               From therapy models to product UX—why Reflexion is more than just
@@ -167,7 +167,7 @@ export default function ReflexionLandingPage() {
       {/* Q&A Section */}
       <section className="mt-24 max-w-4xl mx-auto text-left space-y-6">
         <h2 className="text-2xl md:text-3xl font-bold text-orange-400 text-center mb-6">
-          ❓ Frequently Asked Questions
+          Frequently Asked Questions
         </h2>
 
         <div className="bg-gray-800 p-6 rounded-xl shadow">

@@ -7,10 +7,13 @@ import App from "./App.jsx";
 import ReflexionLandingPage from "./ReflexionLandingPage.jsx";
 import About from "./pages/About.jsx";
 import Navbar from "./components/Navbar.jsx";
+import { Analytics } from "@vercel/analytics/react"
+ 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+    <Analytics />
       <Navbar />
       <Routes>
         {/* 🧠 Landing Page 當首頁 */}
