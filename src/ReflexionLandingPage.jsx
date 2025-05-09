@@ -49,7 +49,7 @@ export default function ReflexionLandingPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center space-y-4 sm:space-y-0">
           <div className="relative flex flex-col items-center">
             <a
-              href="https://sentiment-psychology-analysis-frontend.vercel.app/"
+              href="https://reflexion-raw.vercel.app/"
               target="_blank"
               className="bg-blue-200 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow shadow-blue-500/50"
             >
