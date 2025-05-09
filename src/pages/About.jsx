@@ -8,7 +8,7 @@ export default function About() {
 
         <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 hover:scale-105 h-70">
-            <h2 className="text-3xl font-bold text-blue-300">🌱 Mission</h2>
+            <h2 className="text-3xl font-bold text-blue-300">Mission</h2>
             <p className="text-gray-300 mt-12">
               <strong className="text-white">Reflexion Lab</strong> is a civic
               initiative founded by Shou-Tzu Han to explore how AI can expand
@@ -17,7 +17,7 @@ export default function About() {
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 hover:scale-105 h-70">
-            <h2 className="text-3xl font-bold text-blue-300 mb-2">🧠 Focus</h2>
+            <h2 className="text-3xl font-bold text-blue-300 mb-2">Focus</h2>
             <p className="text-gray-300 mt-12">
               We operate at the intersection of AI, mental health, and HCI —
               applying LLMs to real-world emotional needs, especially among
@@ -25,7 +25,7 @@ export default function About() {
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 hover:scale-105 h-70">
-            <h2 className="text-3xl font-bold text-blue-300 mb-2">🔓 Vision</h2>
+            <h2 className="text-3xl font-bold text-blue-300 mb-2">Vision</h2>
             <p className="text-gray-300 mt-12">
               This platform is not a commercial app but a public-interest system
               committed to emotional autonomy, privacy, and scalable
@@ -33,7 +33,7 @@ export default function About() {
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 hover:scale-105 h-70">
-            <h2 className="text-3xl font-bold text-blue-300 mb-2">💬 Access</h2>
+            <h2 className="text-3xl font-bold text-blue-300 mb-2">Access</h2>
             <p className="text-gray-300 mt-12">
               Reflexion democratizes psychological insight — enabling guided
               self-reflection without cost, stigma, or cultural mismatch.
