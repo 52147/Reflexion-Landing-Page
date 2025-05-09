@@ -80,21 +80,21 @@ export default function ReflexionLandingPage() {
       <section className="mt-20 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <h3 className="text-xl font-bold mb-2">🇺🇸 U.S. Relevance</h3>
+            <h3 className="text-xl font-bold mb-2">U.S. Relevance</h3>
             <p className="text-gray-300">
               Reflexion contributes to the U.S. national interest in expanding
               scalable, AI-powered mental health access.
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <h3 className="text-xl font-bold mb-2">⚙️ GPT + NLP Pipeline</h3>
+            <h3 className="text-xl font-bold mb-2">GPT + NLP Pipeline</h3>
             <p className="text-gray-300">
               Combines fine-tuned HuggingFace models and GPT-3.5 Turbo to create
               multi-layer emotional analysis.
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <h3 className="text-xl font-bold mb-2">🎭 Emotion Radar Chart</h3>
+            <h3 className="text-xl font-bold mb-2">Emotion Radar Chart</h3>
             <p className="text-gray-300">
               Users see a radar chart visualizing anxiety, confidence,
               overthinking, aggression, and more.
