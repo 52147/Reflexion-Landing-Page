@@ -21,7 +21,7 @@ export default function TechnicalStatusSection() {
   return (
     <section
       id="technical-status"
-      className="flex flex-col items-center bg-[#707B9E] px-20 sm:px-6 md:px-20 py-32 md:py-24"
+      className="flex flex-col items-center bg-[#707B9E] px-4 sm:px-6 md:px-20 py-32 md:py-24"
     >
       {" "}
       {/* 標題 */}

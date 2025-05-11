@@ -27,7 +27,7 @@ export default function KeyFeaturesSection() {
   return (
     <section
       id="features"
-     className="flex flex-col items-center bg-[#F5EEE7] px-20 sm:px-5 md:px-20 py-20"
+     className="flex flex-col items-center bg-[#F5EEE7] px-4 sm:px-5 md:px-20 py-20"
     >
       {/* 標題 */}
       <h2 className="text-4xl md:text-5xl font-semibold text-black">
