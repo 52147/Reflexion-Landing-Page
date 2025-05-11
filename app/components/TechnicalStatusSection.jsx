@@ -6,7 +6,8 @@ import Image from "next/image";
 function StatusCard({ iconSrc, title, py = "py-[86px]" }) {
   return (
     <div
-    className={`flex flex-col items-center gap-12 rounded-[20px] border border-white px-14 ${py} lg:flex-row`}    >
+      className={`flex flex-col items-center gap-12 rounded-[20px] border border-white px-14 ${py} lg:flex-row`}
+    >
       <img src={iconSrc} alt="" width={90} height={90} />
       <h3 className="text-2xl md:text-[32px] font-semibold text-white leading-snug">
         {title}
@@ -18,18 +19,20 @@ function StatusCard({ iconSrc, title, py = "py-[86px]" }) {
 /* Technical Status 區塊 ------------------------------------------ */
 export default function TechnicalStatusSection() {
   return (
-    <section id="technical-status" className="flex flex-col items-center bg-[#707B9E] px-20 py-32 md:px-6 md:py-24">
+    <section
+      id="technical-status"
+      className="flex flex-col items-center bg-[#707B9E] px-20 sm:px-6 md:px-20 py-32 md:py-24"
+    >
+      {" "}
       {/* 標題 */}
       <h2 className="text-4xl md:text-[48px] font-semibold text-white text-center">
         Technical Status
       </h2>
-
       {/* 副標 */}
       <p className="mt-14 md:mt-10 max-w-2xl text-center text-base md:text-lg font-medium text-white">
         Current Version: Mobile-first demo prototype (React-based UI + simulated
         API flow) <br /> Upcoming:
       </p>
-
       {/* 4 卡片：2×2 網格 */}
       <div className="mt-8 md:mt-12 lg:mt-16 flex flex-col lg:flex-row gap-10 w-full max-w-[1220px] lg:grid lg:grid-cols-2">
         {" "}

@@ -175,7 +175,7 @@ export default function FAQSection() {
   return (
     <section
       id="faq"
-      className="flex flex-col items-center bg-[#F5EEE7] px-20 py-32 md:px-6 md:py-24"
+      className="flex flex-col items-center bg-[#F5EEE7] px-4 sm:px-6 md:px-20 py-24 md:py-32"
     >
       <h2 className="text-4xl md:text-5xl font-semibold mb-14 text-neutral-700">
         FAQ
