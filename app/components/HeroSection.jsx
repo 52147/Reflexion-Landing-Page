@@ -21,16 +21,18 @@ const HeroSection = () => (
             <h1 className="text-6xl font-bold text-[#A2A7C2] max-md:text-4xl max-md:max-w-full hover:text-[#707B9E]">
               Reflexion
             </h1>
-            <div className="mt-3.5 w-full min-h-[100px]
- max-md:max-w-full">
-              <p className="text-2xl font-medium max-md:max-w-full">
+            <div
+              className="mt-3.5 w-full min-h-[100px]
+ max-md:max-w-full"
+            >
+              <p className="text-2xl font-bold max-md:max-w-full">
                 Reflect. Understand. Grow.
               </p>
-              <p className="gap-2.5 self-stretch py-2.5 w-full text-xl max-md:max-w-full">
+              <p className="gap-2.5 font-semibold py-2.5 w-full text-xl max-md:max-w-full mt-2">
                 A cognitive insight tool designed to turn emotional struggles
                 into actionable self-awareness.
               </p>
-              <p className="gap-2.5 self-stretch py-2.5 w-full text-xl max-md:max-w-full">
+              <p className="gap-2.5 font-semibold py-2.5 w-full text-xl max-md:max-w-full">
                 Built for individuals seeking mental clarity without access to
                 therapy.
               </p>
@@ -43,7 +45,13 @@ const HeroSection = () => (
               className="flex-1 px-5 py-4 text-2xl bg-[#707B9E] rounded-xl border hover:bg-[#5f6988] transition-colors"
               type="button"
             >
-              Try the Demo
+              <a
+                href="https://reflexion-raw.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Try the Demo
+              </a>
             </button>
 
             <button
@@ -61,7 +69,7 @@ const HeroSection = () => (
             src="/phone-1.png"
             alt="Reflexion app interface"
             className="object-contain w-full rounded-3xl aspect-[1.3] bg-[rgba(161,141,214,0.1)] max-md:mt-10 max-md:max-w-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
-            />
+          />
         </div>
       </div>
     </div>
