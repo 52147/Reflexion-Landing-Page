@@ -47,7 +47,7 @@ export default function HeroSection() {
           </div>
 
           {/* CTAs */}
-          <div className="mt-20 w-full max-w-[461px] font-semibold text-white flex flex-col md:flex-row gap-4 md:gap-5 max-md:mt-10">
+          <div className="mt-20 w-full max-w-[461px] font-bold text-white flex flex-col md:flex-row gap-4 md:gap-5 max-md:mt-10">
             <button
               className="flex-1 px-5 py-4 text-2xl bg-[#707B9E] rounded-xl border hover:bg-[#5f6988] transition-colors"
               type="button"
@@ -63,7 +63,7 @@ export default function HeroSection() {
 
             <button
             onClick={loginWithGoogle}
-              className="flex-1 px-5 py-4 text-base font-semibold bg-[#707B9E] rounded-xl border hover:bg-[#5f6988] transition-colors"
+              className="flex-1 px-5 py-4 text-base font-bold bg-[#707B9E] rounded-xl border hover:bg-[#5f6988] transition-colors"
               type="button"
             >
               Join as Prototype User

@@ -31,7 +31,7 @@ export default function LoginButton() {
       };
 
   return (
-    <button onClick={handleLogin} className="rounded-xl bg-[#707B9E] px-5 py-3 text-white hover:bg-[#5f6988]">
+    <button onClick={handleLogin} className="rounded-xl font-bold bg-[#707B9E] px-5 py-3 text-white hover:bg-[#5f6988]">
       Sign in with Google
     </button>
   );
