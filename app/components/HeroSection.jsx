@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import useFirebaseLogin from "../hooks/useFirebaseLogin";
 
 /**
  * HeroSection
@@ -8,7 +11,11 @@ import React from "react";
  * component and given explicit section IDs so the nav links continue
  * to work.
  */
-const HeroSection = () => (
+export default function HeroSection() {
+
+  const loginWithGoogle = useFirebaseLogin();
+
+  return (
   <header
     id="hero"
     className="flex flex-col justify-center items-center px-16 py-6 w-full bg-[#F5EEE7] max-md:px-5 max-md:max-w-full"
@@ -55,6 +62,7 @@ const HeroSection = () => (
             </button>
 
             <button
+            onClick={loginWithGoogle}
               className="flex-1 px-5 py-4 text-base font-semibold bg-[#707B9E] rounded-xl border hover:bg-[#5f6988] transition-colors"
               type="button"
             >
@@ -74,6 +82,5 @@ const HeroSection = () => (
       </div>
     </div>
   </header>
-);
+);}
 
-export default HeroSection;

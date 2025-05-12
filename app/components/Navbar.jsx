@@ -1,14 +1,28 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { auth } from "../lib/firebase";
+import { useRouter } from "next/navigation";
+import LoginButton from "./LoginButton";
 
-/**
- * Navbar – responsive navigation bar
- * - Desktop (md↑): logo + nav links + login/signup
- * - Mobile (≤md): logo + hamburger → slide-down menu with links & actions
- */
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [user, setUser] = useState(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    await signOut(auth);
+    setUser(null);
+    router.push("/");
+  };
 
   return (
     <nav className="w-full bg-[#F5EEE7] shadow-sm">
@@ -44,19 +58,24 @@ export default function Navbar() {
 
           {/* actions + hamburger */}
           <div className="flex items-center gap-5">
-            {/* desktop actions */}
-            <button
-              type="button"
-              className="hidden text-xl font-semibold text-black transition-colors hover:text-slate-600 md:block"
-            >
-              Login
-            </button>
-            <button
-              type="button"
-              className="hidden rounded-xl border border-stone-200 bg-slate-500 px-4 py-2 text-xl font-semibold text-white transition-colors hover:bg-slate-600 md:block"
-            >
-              Sign Up
-            </button>
+            {user ? (
+              <>
+                <span className="hidden md:block text-sm font-medium text-[#707B9E]">
+                  {user.email}
+                </span>
+                <button
+                  onClick={handleLogout}
+                  type="button"
+                  className="hidden md:block rounded-xl border border-stone-200 bg-red-400 px-4 py-2 text-sm font-semibold text-white hover:bg-red-500"
+                >
+                  Logout
+                </button>
+              </>
+            ) : (
+              <>
+                <LoginButton/>
+              </>
+            )}
 
             {/* hamburger / close icon – mobile only */}
             <button
@@ -66,7 +85,6 @@ export default function Navbar() {
               onClick={() => setOpen((o) => !o)}
             >
               {open ? (
-                /* X icon */
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -81,7 +99,6 @@ export default function Navbar() {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               ) : (
-                /* hamburger icon */
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -120,20 +137,22 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
-            {/* mobile actions */}
             <div className="mt-2 flex flex-col gap-3">
-              <button
-                type="button"
-                className="text-left text-xl font-semibold text-black transition-colors hover:text-slate-600"
-              >
-                Login
-              </button>
-              <button
-                type="button"
-                className="rounded-xl border border-stone-200 bg-slate-500 px-4 py-2 text-xl font-semibold text-white transition-colors hover:bg-slate-600"
-              >
-                Sign Up
-              </button>
+              {user ? (
+                <>
+                  <span className="text-sm font-medium text-[#707B9E]">
+                    {user.email}
+                  </span>
+                  <button
+                    onClick={handleLogout}
+                    className="rounded-xl border border-stone-200 bg-red-400 px-4 py-2 text-sm font-semibold text-white hover:bg-red-500"
+                  >
+                    Logout
+                  </button>
+                </>
+              ) : (
+                <LoginButton/>
+              )}
             </div>
           </div>
         )}
