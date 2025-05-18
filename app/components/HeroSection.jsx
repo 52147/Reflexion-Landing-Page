@@ -53,7 +53,7 @@ export default function HeroSection() {
               type="button"
             >
               <a
-                href="https://reflexion-raw.vercel.app/"
+                href="/demo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
