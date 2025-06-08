@@ -8,7 +8,7 @@ export default function DemoRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    window.location.href = "https://reflexion-demo-mobile-demo.vercel.app/";
+    window.location.href = "https://reflexion-demo-mobile-demo.vercel.app/"; // Replace with your demo URL
   }, [router]);
 
   return (
