@@ -9,7 +9,9 @@ import React from "react";
  * – 其餘排版完全維持原樣
  */
 const ContactSection = () => (
-<div className="w-full min-h-[455px] bg-[#F5EEE7] flex justify-center items-center pt-[85px] pb-[85px] px-12 sm:px-8 md:px-[60px] lg:px-[122px]">    {/* wrapper */}
+  <div className="w-full min-h-[455px] bg-[#F5EEE7] flex justify-center items-center pt-[85px] pb-[85px] px-12 sm:px-8 md:px-[60px] lg:px-[122px]">
+    {" "}
+    {/* wrapper */}
     <div className="flex flex-col lg:flex-row justify-center gap-[20px] w-full">
       {/* newsletter card */}
       <div className="w-full lg:w-[588px] rounded-[20px] bg-[linear-gradient(100deg,#FFE0EA_2.9%,#B6C2FF_100%,#B1B9CF_100%)] shadow-[0_4px_4px_rgba(0,0,0,0.25)] p-[40px] flex flex-col items-center">
@@ -67,14 +69,16 @@ const ContactSection = () => (
           </div>
         </div>
         <div className="flex justify-center">
-          <button
+          <a
+            href="https://discord.gg/Mz8bBHBgyr"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex w-[166px] h-[42px] p-[10px] justify-center items-center rounded-[10px] border border-[#F1ECE7] bg-white transition-colors duration-200 hover:bg-[#e4e4e4] active:bg-[#d6d6d6] focus:outline-none"
-            type="button"
           >
             <span className="text-[#707B9E] font-inter text-[20px] font-medium">
               Join
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>

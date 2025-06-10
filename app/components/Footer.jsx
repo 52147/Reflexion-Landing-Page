@@ -75,13 +75,13 @@ const Footer = () => (
             <IconBrandTwitter size={28} />
           </a>
           <a
-            href="mailto:contact@reflexionai.dev"
+            href="mailto:founder@reflexionai.dev"
             className="text-black hover:text-slate-600"
           >
             <IconMail size={28} />
           </a>
           <a
-            href="https://discord.com/"
+            href="https://discord.gg/Mz8bBHBgyr"
             target="_blank"
             className="text-black hover:text-slate-600"
           >
