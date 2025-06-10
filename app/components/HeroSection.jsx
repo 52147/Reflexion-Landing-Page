@@ -66,7 +66,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right – hero demo video */}
+          {/* Right – hero demo */}
           <div className="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
             <video
               src="/demo.mov"
