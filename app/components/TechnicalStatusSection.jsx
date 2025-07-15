@@ -46,7 +46,7 @@ export default function TechnicalStatusSection() {
         />
         <StatusCard
           iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/822993030e1fdafa87202960af2d3dbce0c5d91e"
-          title="Partnership pilots underway (Taiwan NGO)"
+          title="Partnership pilots underway (US NGO)"
         />
         <StatusCard
           iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/177c0fd45290bee4bc4fa36ef0ed99bbae6d100e"
