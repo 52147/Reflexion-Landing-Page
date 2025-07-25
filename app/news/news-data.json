@@ -1,0 +1,150 @@
+{
+    "latest": {
+      "tag": "PRESS",
+      "title": "Reflexion turns emotions into data",
+      "date": "2025-07-18",
+      "excerpt": "A new approach to understanding user emotions through Reflexion’s advanced AI techniques.",
+      "image": "/images/news/hero-press.jpg",          
+      "href": "/press/reflexion-turns-emotions-into-data"
+    },
+  
+    "sections": [
+      {
+        "label": "Press",
+        "cards": [
+          {
+            "tag": "PRESS",
+            "title": "Reflexion turns emotions into data",
+            "date": "2025-07-18",
+            "excerpt": "A new approach to understanding user emotions through Reflexion’s advanced AI techniques.",
+            "image": "/images/news/press-01.jpg",
+            "href": "/press/reflexion-turns-emotions-into-data"
+          },
+          {
+            "tag": "PRESS",
+            "title": "AI for mental health: Reflexion in action",
+            "date": "2025-06-12",
+            "excerpt": "Exploring how Reflexion’s AI is shaping the future of mental wellness.",
+            "image": "/images/news/press-02.jpg",
+            "href": "/press/ai-for-mental-health"
+          },
+          {
+            "tag": "PRESS",
+            "title": "AI Review: Trends in emotional computing",
+            "date": "2025-05-20",
+            "excerpt": "An overview of emotional intelligence in AI, featuring Reflexion’s contribution.",
+            "image": "/images/news/press-03.jpg",
+            "href": "/press/emotional-computing-trends"
+          }
+        ]
+      },
+  
+      {
+        "label": "Update",
+        "cards": [
+          {
+            "tag": "UPDATE",
+            "title": "Introducing the Adaptive Prompt Tree",
+            "date": "2025-06-30",
+            "excerpt": "Enhancing our AI’s prompting capabilities with flexible, context-sensitive adaptation.",
+            "image": "/images/news/update-01.jpg",
+            "href": "/updates/adaptive-prompt-tree"
+          },
+          {
+            "tag": "UPDATE",
+            "title": "New Emotion Lab feature now live",
+            "date": "2025-05-10",
+            "excerpt": "Discover and track emotional patterns with our latest interactive tool.",
+            "image": "/images/news/update-02.jpg",
+            "href": "/updates/emotion-lab"
+          },
+          {
+            "tag": "UPDATE",
+            "title": "Monthly Summary AI Module released",
+            "date": "2025-04-22",
+            "excerpt": "Aggregate trends, session-level insights, and language-shift detection now available.",
+            "image": "/images/news/update-03.jpg",
+            "href": "/updates/monthly-summary-module"
+          }
+        ]
+      },
+  
+      {
+        "label": "Story",
+        "cards": [
+          {
+            "tag": "STORY",
+            "title": "How Reflexion helped me find balance",
+            "date": "2025-05-25",
+            "excerpt": "A personal journey of emotional reflection and regained stability.",
+            "image": "/images/news/story-01.jpg",
+            "href": "/stories/find-balance"
+          },
+          {
+            "tag": "STORY",
+            "title": "7 days with Reflexion: A personal journal",
+            "date": "2025-04-29",
+            "excerpt": "Daily reflections on using Reflexion to build lasting emotional habits.",
+            "image": "/images/news/story-02.jpg",
+            "href": "/stories/seven-days-journal"
+          },
+          {
+            "tag": "STORY",
+            "title": "Students use Reflexion for exam stress",
+            "date": "2025-03-18",
+            "excerpt": "College students share how Reflexion helped manage anxiety during finals week.",
+            "image": "/images/news/story-03.jpg",
+            "href": "/stories/exam-stress"
+          }
+        ]
+      },
+  
+      {
+        "label": "Milestone",
+        "cards": [
+          {
+            "tag": "MILESTONE",
+            "title": "10 K monthly users",
+            "date": "2025-07-18",
+            "excerpt": "A key growth moment—now serving over 10 000 active users every month.",
+            "image": "/images/news/milestone-01.jpg",
+            "href": "/milestones/10k-users"
+          },
+          {
+            "tag": "MILESTONE",
+            "title": "Reflexion joins Google for Startups",
+            "date": "2025-06-05",
+            "excerpt": "Accepted into Google’s programme supporting AI-led mental-health innovation.",
+            "image": "/images/news/milestone-02.jpg",
+            "href": "/milestones/google-for-startups"
+          },
+          {
+            "tag": "MILESTONE",
+            "title": "2.3 M impressions in 30 days",
+            "date": "2025-04-14",
+            "excerpt": "Rapid growth in platform reach with record engagement.",
+            "image": "/images/news/milestone-03.jpg",
+            "href": "/milestones/2-3m-impressions"
+          }
+        ]
+      }
+    ],
+  
+    "topics": [
+      "Accessibility",
+      "Arts & Culture",
+      "Emotional Health",
+      "Entrepreneurs",
+      "Diversity & Inclusion",
+      "Sustainability",
+      "Student Programs",
+      "Learning & Education",
+      "Small Business",
+      "Public Policy",
+      "AI Ethics",
+      "Nonprofits",
+      "UX & HCI",
+      "Mental Wellness",
+      "Product Updates"
+    ]
+  }

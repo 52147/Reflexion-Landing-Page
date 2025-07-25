@@ -45,6 +45,7 @@ export default function Navbar() {
               { href: "#technical-status", label: "Technical Status" },
               { href: "#faq", label: "FAQ" },
               { href: "#contact", label: "Contact" },
+              { href: "/news", label: "News" }, // 注意這裡的 href 應該是 /news 而不是 News
             ].map(({ href, label }) => (
               <Link
                 key={href}
@@ -127,6 +128,7 @@ export default function Navbar() {
               { href: "#technicalStatus", label: "Technical Status" },
               { href: "#faq", label: "FAQ" },
               { href: "#contact", label: "Contact" },
+              {href: "/news", label: "News" },
             ].map(({ href, label }) => (
               <Link
                 key={href}
