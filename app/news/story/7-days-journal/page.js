@@ -29,7 +29,7 @@ export default function SevenDayJournal() {
       <article
         className="
         relative mx-auto max-w-5xl rounded-lg border border-[#DEDBD9] bg-white shadow-lg
-        p-0 sm:p-5 md:p-12
+        pt-8 sm:p-5 md:p-12
       "
       >
         {/* ── Breadcrumb nav ─────────────────── */}

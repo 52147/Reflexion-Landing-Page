@@ -30,7 +30,7 @@ export default function EmotionalComputingArticle() {
       <article
         className="
           relative mx-auto max-w-5xl rounded-lg border border-[#DEDBD9] bg-white shadow-lg
-          p-0           /* phones */
+          pt-8           /* phones */
           sm:p-5        /* ≥ 640 px */
           md:p-12       /* ≥ 768 px */
         "

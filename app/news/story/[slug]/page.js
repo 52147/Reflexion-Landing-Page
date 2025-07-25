@@ -25,7 +25,7 @@ export default function ExamStressArticle() {
       <article
         className="
   relative mx-auto max-w-5xl rounded-lg border border-[#DEDBD9] bg-white shadow-lg
-  p-0           /* default — phones: no padding  */
+  pt-8           /* default — phones: no padding  */
   sm:p-5        /* ≥ 640 px:   medium padding    */
   md:p-12       /* ≥ 768 px:   large padding     */
 "

@@ -26,7 +26,7 @@ export default function AiMentalHealthArticle() {
     <main className="min-h-screen bg-[#F5EEE7]">
       <article
         className="relative mx-auto max-w-5xl rounded-lg border border-[#DEDBD9] bg-white shadow-lg
-                          p-0 sm:p-5 md:p-12"
+                          pt-8 sm:p-5 md:p-12"
       >
         {/* ---------- breadcrumb nav ---------- */}
         {/* ------------ 導覽列 ------------ */}
