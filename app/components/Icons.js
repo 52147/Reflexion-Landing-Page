@@ -1,4 +1,14 @@
 // components/Icons.js
+export const LinkedInIcon = (props) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      {...props}
+    >
+      <path d="M4.98 3.5A2.5 2.5 0 0 1 7.5 6a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 2.48-2.5ZM3 8.75h3.5v11.5H3V8.75Zm6 0H12v1.77c.42-.8 1.67-1.97 3.63-1.97C18.5 8.55 20 10 20 13.19v7.06h-3.5v-6.59c0-1.57-.56-2.64-1.97-2.64-1.07 0-1.71.72-1.99 1.42-.1.24-.13.58-.13.92v6.89H9V8.75Z"/>
+    </svg>
+  );
+
 export function FacebookIcon({ className = "", ...rest }) {
     return (
       <svg

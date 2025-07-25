@@ -1,8 +1,8 @@
 // components/ShareButtons.js
-"use client";                         // needed because we touch window / clipboard
+"use client"; // needed because we touch window / clipboard
 import { usePathname } from "next/navigation"; // ↖ app router helper
 import { useCallback } from "react";
-import { FacebookIcon, TwitterIcon, CopyIcon } from "./Icons"; // whatever icon set you use
+import { LinkedInIcon, FacebookIcon, TwitterIcon, CopyIcon } from "./Icons"; // whatever icon set you use
 
 export default function ShareButtons({ title }) {
   /* ---------------------------------------------------------
@@ -12,8 +12,8 @@ export default function ShareButtons({ title }) {
   // During SSR `window` is undefined; patch with origin later on client.
   const pageURL =
     typeof window === "undefined"
-      ? pathname                      // temporary
-      : window.location.href;         // final on client
+      ? pathname // temporary
+      : window.location.href; // final on client
 
   /* ---------------------------------------------------------
      2. Share handler
@@ -26,6 +26,9 @@ export default function ShareButtons({ title }) {
       let shareURL = "";
 
       switch (platform) {
+        case "linkedin":
+          shareURL = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+          break;
         case "facebook":
           shareURL = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
           break;
@@ -35,7 +38,7 @@ export default function ShareButtons({ title }) {
         case "copy":
           navigator.clipboard.writeText(pageURL);
           alert("Link copied 👍");
-          return;                     // don’t open a window
+          return; // don’t open a window
         default:
           return;
       }
@@ -56,6 +59,11 @@ export default function ShareButtons({ title }) {
     <div className="flex items-center gap-6 self-end">
       <span className="text-lg font-bold text-[#525252]">Share:</span>
       <div className="flex gap-4">
+        <LinkedInIcon
+          data-plat="linkedin"
+          onClick={() => share("linkedin")}
+          className="h-7 w-7 cursor-pointer hover:opacity-70 text-[#707B9E]"
+        />
         <FacebookIcon
           className="h-7 w-7 cursor-pointer hover:opacity-70 text-[#707B9E]"
           onClick={() => share("facebook")}
