@@ -50,7 +50,7 @@
              {TOPICS.map((topic) => (
                <Link
                  key={topic}
-                 href={`/topics/${slugify(topic)}`}
+                 href={`/news`}
                  className="hover:text-[#707B9E] transition-colors"
                >
                  {topic}
